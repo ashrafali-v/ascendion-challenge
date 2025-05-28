@@ -30,8 +30,14 @@ This is a Next.js application that includes two main features:
 - Next.js 14
 - TypeScript
 - Tailwind CSS
-- React Hooks
-- Modern ESLint Configuration
+
+### React Features
+- React Hooks (useState, useEffect)
+- Client Components
+
+### Development Tools
+- TypeScript Compiler
+- Prettier Code Formatter
 
 ## Getting Started
 
@@ -45,7 +51,7 @@ This is a Next.js application that includes two main features:
 1. Clone the repository:
 
 ```bash
-git clone [repository-url]
+git clone https://github.com/ashrafali-v/ascendion-challenge
 cd ascendion-app
 ```
 
