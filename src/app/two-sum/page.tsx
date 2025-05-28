@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import { twoSum } from "@/utils/twoSum";
-import Navbar from "@/components/navbar";
 
 export default function TwoSumPage() {
   const [numbers, setNumbers] = useState<string>("");
@@ -64,7 +63,6 @@ export default function TwoSumPage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-900">
-      <Navbar />
       <div className="flex-1 flex flex-col items-center justify-center p-8">
         <main className="flex flex-col items-center gap-6 w-full max-w-2xl">
           <h1 className="text-3xl font-bold mb-4 text-white">

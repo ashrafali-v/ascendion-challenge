@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Navbar from "@/components/navbar";
 
 export default function Home() {
   const [firstNumber, setFirstNumber] = useState("");
@@ -14,7 +13,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar />
       <div className="flex-1 flex flex-col items-center justify-center p-8">
         <main className="flex flex-col items-center gap-6 w-full max-w-md">
           <h1 className="text-4xl font-bold mb-8">Adding Two Numbers</h1>
